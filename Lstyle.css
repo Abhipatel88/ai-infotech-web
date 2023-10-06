@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Oswald:wght@700&family=Phudu:wght@300&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: #0c0f11; */
+    /* position: absolute;   */
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #0c0f11;
+}
+#nav{
+    padding: 20px;
+   
+    margin: 0px 58px 0px 58px;
+}
+#logo a{
+    text-decoration: none;
+}
+#nav #logo  h5{
+    font-size: 50px;
+    color: white;
+    /* font-weight: 100; */
+    text-align: center;
+   
+    
+}
+span{
+    color: #0099ff;
+    font-weight: 700;
+    font-size: 7vw;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 80px 0px 80px;
+}
+#le{
+    color: white;
+}
+#le h1{
+    font-size: 10vw;
+    /* text-align: center; */
+}
+#ri{
+    width: 50vw;
+    height: 30vw;
+    background-color: #23313a;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#ri #limage{
+   width:270px;
+   height: 300px;
+   /* background-color: #ffffff; */
+   padding: 0px 40px;
+   
+}
+#limage img{
+    width: 270px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #fffafa;
+}
+#ri #inputs{
+    width: 310px;
+    height: 300px;
+    /* background-color: #fff;/ */
+    /* padding: 10px 50px; */
+    margin:50px 90px;
+}
+#inputs input{
+    width: 270px;
+    height: 50px;
+    background-color: #fffffff3;
+    /* padding: 40px; */
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+}
+input::placeholder{
+    padding: 10px;
+    color: rgb(15, 12, 12);
+    font-size: 1.2vw;
+    
+}
+#inputs h4{
+    margin-top: 4px;
+    font-size: .7vw;
+}
+#heading #ri #inputs a:hover{
+    color: blue;
+}
+#inputs h4 a{
+    text-decoration: none;
+    color: #0099ff;
+    margin-top: 10px;
+}
+#inputs .submit {
+    margin-top: 20px;
+    /* padding: 40px; */
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: #045068;
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+#heading #ri #inputs .submit:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.2); 
+      cursor: pointer;
+}
+#inputs .o{
+    width: 50px;
+    height: 20px;
+    background-color: red ;
+    text-decoration: none;
+    color: white;
+}
+
+#s{
+    width: 270px;
+    height: 50px;
+    background-color: #0099ff;
+    border-radius: 10px;
+    padding: 8px 95px;
+    margin-top: 20px;
+}
+#s a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    /* margin-top: 10px; */
+}
+#s:hover{
+    background-color: #045068;
+}
+#q{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    gap: 5px;
+}
+#q i{
+    color: #daf0ff93;
+    
+}
+#ssss{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+#footer {
+    color: white;
+    margin: 0px 80px 20px 60px;
+    text-align: center;
+   
+
+}
+#footer h4{
+    font-size: 1vw;
+    /* margin: 10px; */
+    font-weight: 300;
+}
+#f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

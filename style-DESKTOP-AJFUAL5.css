@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&family=Oswald:wght@700&family=Phudu:wght@300&family=Ubuntu:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: #0c0f11; */
+    /* position: absolute;   */
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #0c0f11;
+}
+#nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 58px 0px 58px;
+}
+#nav #logo h5{
+    font-size: 30px;
+    color: white;
+    /* font-weight: 100; */
+    
+}
+span{
+    color: #0099ff;
+    font-weight: 700;
+    font-size: 4vw;
+}
+#links{
+    margin-left: 450px;
+}
+#nav #links a{
+    gap: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+#nav #links a:hover{
+    /* background-color: #0f161a; */
+    color: #264b63;
+    transition: .5s;
+}
+#nav #links .active {
+    color: #3700ff;
+}
+#but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    /* background-color: aliceblue; */
+    
+}
+
+#but #lo {
+    width: 100px;
+    height: 50px;
+    padding: 15px 28px;
+    /* align-items: center; */
+    background-color: #0099ff;
+border-radius: 10px;
+
+}
+#lo a{
+    text-decoration: none;
+    color: white;
+    
+}
+#but #si {
+    width: 100px;
+    height: 50px;
+    padding: 15px 28px; 
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #F3F3F3;
+}
+#si a{
+    text-decoration: none;
+    color: rgb(8, 7, 7);
+    
+}
+#head{
+    width: 100%;
+    height: 100vw;
+}
+#toph{
+    margin: 0px 80px 0px 80px;
+}
+#toph h1{
+    font-size: 4vw;
+    color: rgb(245, 245, 245);
+
+}
+#top2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 80px 0px 80px;
+}
+#top2 #b1{
+    width: 30vw;
+    height: 20vw;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px #888888;
+}
+#top2 #b2{
+    width: 30vw;
+    height: 20vw;
+    background-color: salmon;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px #888888;
+}
+
+#b1 #im1 img {
+    width: 30vw;
+    height: 15vw;
+    border-radius: 20px;
+    transition: transform .2s;
+    /* z-index: -9999999; */
+}
+
+#b2 #im2 img {
+    width: 30vw;
+    height: 15vw;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+#b1 #a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+}
+/* #b1 h2{
+    font-size: 2vw;
+    padding: 15px;
+    color: #052537;
+} */
+#a #left h2{
+    color: #052537;
+
+}
+#a #left h2:hover{
+    color: #18c520;
+    cursor: pointer;
+}
+#right {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#right a{
+    text-decoration: none;
+    color: #F3F3F3;
+    
+}
+#a #right a:hover{
+    color: #1d5c00;
+    
+}
+#b2 #a1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+}
+#a1 #left1 h2{
+    color: #052537;
+
+}
+#a1 #left1 h2:hover{
+    color: #18c520;
+    cursor: pointer;
+}
+#right1 {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#right1 a{
+    text-decoration: none;
+    color: #F3F3F3;
+    
+}
+#a1 #right1 a:hover{
+    color: #1d5c00;
+    
+}
+#head #top2 #b1 #im1 img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+    cursor: pointer;
+}
+#head #top2 #b2 #im2 img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+    cursor: pointer;
+}
+#top3{
+    margin: 50px 80px 0px 80px ;
+    text-align: center;
+
+}
+#top3 h1{
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    /* opacity: .8; */
+    z-index: 99999;
+    position: relative;
+    font-family:'Black Ops One', cursive;;
+}
+span1{
+    color: #ffffff;
+    font-size: 2.5vw;
+    opacity: 1;
+    font-family: 'Lobster', cursive;
+}
+#top4{
+    padding: 50px;
+    margin: 0px 80px -20px 80px ;
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    /* padding: 10px; */
+}
+#top4 h2{
+    color: #ff9c08;
+    font-size: 5vw;
+    margin-right: 500px;
+    
+}
+button{
+    color: #6181eb;
+    width: 100px;
+    height: 40px;
+    background-color: #F3F3F3;
+    border: none;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    
+}
+button:hover{
+    cursor: pointer;
+    color: #0c0f11;
+    background-color: #ffffff;
+}
+#second{
+    width: 100%;
+    height: 100%;
+    background-color: #0c0f11;
+    /* padding: 100px; */
+    position: relative;
+}
+#ex{
+    
+    /* margin: 20px 80px 0px 10px ; */
+    /* background-color: #021246; */
+    /* margin: 20px; */
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* top: 5000px; */
+    margin: 0px 80px 20px 60px;
+    flex-wrap: wrap;
+
+}
+#ex #w img{
+    /* top: 50000px; */
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    /* align-items: center; */
+    transition: transform .5s;
+}
+#second #ex #w img:hover{
+    /* -ms-transform: scale(1); 
+   -webkit-transform: scale(1);  */
+  /* transform: scale(1.2);  */
+  transform: scale(1.2) rotate(360deg) skew(5deg);
+    cursor: pointer;
+}
+#footer {
+    color: white;
+    margin: 0px 80px 20px 60px;
+    text-align: center;
+
+}
+hr{
+    /* padding: 1px; */
+    height: 10px;
+    background-color: #7f8285;
+    border: none;
+    opacity: .5;
+    z-index: 99999;
+    position: relative;
+    margin-top: 20px;
+}
+#footer h4{
+    font-size: 1vw;
+    margin: 10px;
+    font-weight: 300;
+}
+#f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
